@@ -1,0 +1,20 @@
+1.查看文件状态：git status
+
+2.查看修改：git diff
+
+3.提交文件：git add readme.txt
+			git add read.txt
+			
+			git commit -m "新增文件"
+
+4.查看历史操作日志：git log
+
+5.回退到上一个版本：git reset --hard HEAD^
+
+6.回退到某一个版本：git reset -hard 3a373（版本号前几位）
+
+7.查看历史操作：git reflog（查看每次操作的commit_id）
+
+8.从工作区撤销（还没add）：git checkout -- readme.txt
+
+9.add了还没commit撤销（撤销暂缓区）：git reset HEAD readme.txt
